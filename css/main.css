@@ -1,0 +1,48 @@
+body{
+    background: white url(/img/pv.jpg);
+    background-attachment: fixed;
+}
+#header{
+    width: 80%;
+    height: 60px;
+    background-color: #1378F8;
+    margin: auto;
+}
+#menu{
+    width: 80%;
+    height: 35px;
+    background-color: #139EF8;
+    margin: auto;
+}
+#body{
+    width: 80%;
+    height: 600px;
+    background-color: #1371F8;
+    margin: auto;
+}
+.image-container{
+    margin-left: 0;
+    width: 220px;
+    height: 220px;
+    background-color: skyblue;
+    border-radius: 50%;
+    clip-path: circle(100px at center);
+}
+#content{
+    width: 80%;
+    height: 600px;
+    background-color: red;
+    margin: auto;
+}
+#footer{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+.Presentacion{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
