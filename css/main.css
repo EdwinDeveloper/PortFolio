@@ -1,48 +1,85 @@
-body{
-    background: white url(/img/pv.jpg);
-    background-attachment: fixed;
+body {
+  margin: 0 auto;
+  margin-top: 0;
 }
-#header{
-    width: 80%;
-    height: 60px;
-    background-color: #1378F8;
-    margin: auto;
+body .main-container {
+  margin: 0 auto;
 }
-#menu{
-    width: 80%;
-    height: 35px;
-    background-color: #139EF8;
-    margin: auto;
+body .main-container #header {
+  margin-top: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  background-color: black;
 }
-#body{
-    width: 80%;
-    height: 600px;
-    background-color: #1371F8;
-    margin: auto;
+body .main-container #header .Presentacion {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0px;
 }
-.image-container{
-    margin-left: 0;
-    width: 220px;
-    height: 220px;
-    background-color: skyblue;
-    border-radius: 50%;
-    clip-path: circle(100px at center);
+body .main-container #menu {
+  width: 100%;
+  height: 40px;
+  background-color: #d3c1c1;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
 }
-#content{
-    width: 80%;
-    height: 600px;
-    background-color: red;
-    margin: auto;
+body .main-container #menu .menu-options-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  border: solid 2px red;
+  font-size: 2rem;
+  color: white;
+  margin-left: 10px;
 }
-#footer{
-    width: 80%;
-    height: 100px;
-    background-color: blue;
-    margin: auto;
+body .main-container #menu .menu-options-container div {
+  text-align: center;
+  flex-grow: 1;
+  font-weight: bold;
 }
-.Presentacion{
-    color: white;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
+body .main-container #menu .menu-options-container div:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
+body .main-container #body {
+  display: flex;
+}
+body .main-container #body .container-image {
+  width: 20%;
+  height: 650px;
+  background-color: #1371F8;
+}
+body .main-container #body .container-image .contenedor-de-imagen {
+  height: 220px;
+  border: solid 2px red;
+}
+body .main-container #body .container-image .contenedor-de-imagen .image-container {
+  margin-left: 0;
+  width: 220px;
+  height: 220px;
+  background-color: skyblue;
+  border-radius: 50%;
+  clip-path: circle(100px at center);
+}
+body .main-container #body .container-image .mision-vision {
+  width: 100%;
+  height: 430px;
+  border: solid 1px red;
+}
+body .main-container #body .content-information {
+  width: 80%;
+  height: 650px;
+  background-color: orange;
+}
+body .main-container #footer {
+  width: 80%;
+  height: 100px;
+  background-color: blue;
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+    margin-top:0;
+    .main-container{
+        margin: 0 auto;
+        #header{
+            margin-top: 0;
+            margin:0 auto;
+            width: 100%;
+            height: 40px;
+            background-color:black;
+            .Presentacion{
+                color: white;
+                text-align: center;
+                justify-content: center;
+                margin-top:0px;
+            }
+        }
+        #menu{
+            width: 100%;
+            height: 40px;
+            background-color: rgb(211, 193, 193);
+            margin: auto;
+            display: flex;
+            justify-content: flex-end;
+            .menu-options-container{
+                display: flex;
+                justify-content: space-between;
+                width: 60%;
+                border:solid 2px red;
+                font-size: 2rem;
+                color:white;
+                margin-left: 10px;
+                div{
+                    text-align: center;
+                    flex-grow: 1;
+                    font-weight: bold;
+                    &:hover{
+                        background-color: white;
+                        color:black;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        #body{
+            display: flex;
+            .container-image{
+                width: 20%;
+                height: 650px;
+                background-color: #1371F8;
+                //display: flex;
+                //justify-content: center;
+                    .contenedor-de-imagen{
+                        height:220px;
+                        border:solid 2px red;                    
+                        .image-container{
+                            margin-left: 0;
+                            width: 220px;
+                            height: 220px;
+                            background-color: skyblue;
+                            border-radius: 50%;
+                            clip-path: circle(100px at center);
+                        }
+                    }
+                    .mision-vision{
+                        width: 100%;
+                        height: 430px;
+                        border:solid 1px red;
+                    }
+            }
+            .content-information{
+                width: 80%;
+                height: 650px;
+                background-color: orange;
+            }
+        }
+
+        #footer{
+            width: 80%;
+            height: 100px;
+            background-color: blue;
+            margin: auto;
+        }        
+    }
+    
+}
