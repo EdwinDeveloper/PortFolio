@@ -39,8 +39,6 @@ body .main-container #menu .menu-options-container div {
   text-align: center;
   flex-grow: 1;
   font-weight: bold;
-  transition: background-color 0.5s;
-  transition: color 0.5s;
 }
 body .main-container #menu .menu-options-container div:hover {
   background-color: white;
@@ -56,7 +54,7 @@ body .main-container #body .container-image {
   background-color: #406B7E;
 }
 body .main-container #body .container-image .contenedor-de-imagen {
-  height: 210px;
+  height: 220px;
   border: solid 2px red;
   display: flex;
   justify-content: center;
@@ -71,7 +69,7 @@ body .main-container #body .container-image .contenedor-de-imagen .image-contain
 }
 body .main-container #body .container-image .mision-vision {
   width: 100%;
-  height: 440px;
+  height: 430px;
   border: solid 1px red;
   display: flex;
 }
@@ -94,18 +92,11 @@ body .main-container #body .container-image .mision-vision .content-mision-visio
   height: 46px;
   border: solid 1px red;
   display: flex;
-  align-items: center;
-}
-body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content:first-of-type {
-  height: 65px;
 }
 body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content label#nombre {
-  margin-top: 10px;
-  text-align: center;
   margin: auto auto;
   color: white;
-  font-size: 2rem;
-  font-weight: bold;
+  font-size: 1.2rem;
 }
 body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .icon-content {
   width: 15%;
@@ -128,21 +119,16 @@ body .main-container #body .container-image .mision-vision .content-mision-visio
   justify-content: center;
   align-items: center;
 }
-body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame label#phone {
-  color: white;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
 body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame label {
   color: white;
   font-weight: bold;
-  text-align: center;
+  font-size: 1.5rem;
 }
 body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame label.git {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame label.email {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 body .main-container #body .content-information {
   width: 80%;
@@ -156,4 +142,4 @@ body .main-container #footer {
   margin: auto;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=man.css.map */

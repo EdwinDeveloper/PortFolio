@@ -35,6 +35,8 @@ body{
                     text-align: center;
                     flex-grow: 1;
                     font-weight: bold;
+                    transition: background-color 0.5s;
+                    transition: color 0.5s;
                     &:hover{
                         background-color: white;
                         color:black;
@@ -48,11 +50,11 @@ body{
             .container-image{
                 width: 20%;
                 height: 650px;
-                background-color: #1371F8;
+                background-color: #406B7E;
                 //display: flex;
                 //justify-content: center;
                     .contenedor-de-imagen{
-                        height:220px;
+                        height:210px;
                         border:solid 2px red; 
                         display: flex;
                         justify-content: center;                   
@@ -67,7 +69,7 @@ body{
                     }
                     .mision-vision{
                         width: 100%;
-                        height: 430px;
+                        height: 440px;
                         border:solid 1px red;
                         display: flex;
                         .content-mision-vision{
@@ -77,43 +79,63 @@ body{
                             border:solid 1px white;
                             .contactame{
                                 width: 100%;
-                                height: 99px;
+                                height: 65px;
                                 border:solid 1px orange;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
                                 .contacteme-content{
                                     width: 100%;
-                                    height:92px;
+                                    height:46px;
                                     border:solid 1px red;
                                     display: flex;
+                                    align-items: center;
+                                    &:first-of-type{
+                                        height:65px;
+                                    }
+                                    label#nombre{
+                                        margin-top: 10px;
+                                        text-align: center;
+                                        margin: auto auto;
+                                        color:white;
+                                        font-size: 2rem;
+                                        font-weight: bold;
+                                    }
                                     .icon-content{
-                                        width: 30%;
-                                        height:92px;
+                                        width: 15%;
+                                        height:46px;
                                         border: solid 1px orange;
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         i{
                                             color:white;
-                                            font-size: 3rem;
+                                            font-size: 1.5rem;
                                             margin: auto auto;
                                         }
                                     }
                                     .text-contactame{
-                                        width: 70%;
-                                        height: 92px;
+                                        width: 85%;
+                                        height: 46px;
                                         border:solid 1px red;
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
+                                        label#phone{
+                                            color:white;
+                                            font-weight: bold;
+                                            font-size: 1.2rem;
+                                        }
                                         label{
                                             color:white;
                                             font-weight: bold;
-                                            font-size: 1.5rem;
+                                            text-align: center;
                                         }
                                         label.git{
-                                            font-size: 0.8rem;
+                                            font-size: 1rem;
+                                        }
+                                        label.email{
+                                            font-size: 0.9rem;
                                         }
                                     }
                                 }
