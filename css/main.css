@@ -21,14 +21,13 @@ body .main-container #header .Presentacion {
 body .main-container #menu {
   width: 100%;
   height: 40px;
-  background-color: #d3c1c1;
+  background-color: #406B7E;
   margin: auto;
   display: flex;
   justify-content: flex-end;
 }
 body .main-container #menu .menu-options-container {
   display: flex;
-  justify-content: space-between;
   width: 60%;
   border: solid 2px red;
   font-size: 2rem;
@@ -36,8 +35,10 @@ body .main-container #menu .menu-options-container {
   margin-left: 10px;
 }
 body .main-container #menu .menu-options-container div {
+  margin: auto auto;
   text-align: center;
   flex-grow: 1;
+  font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.5s;
   transition: color 0.5s;
