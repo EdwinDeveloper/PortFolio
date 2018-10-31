@@ -91,6 +91,36 @@ body .main-container #body .container-image .mision-vision .content-mision-visio
   width: 100%;
   height: 92px;
   border: solid 1px red;
+  display: flex;
+}
+body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .icon-content {
+  width: 30%;
+  height: 92px;
+  border: solid 1px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .icon-content i {
+  color: white;
+  font-size: 3rem;
+  margin: auto auto;
+}
+body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame {
+  width: 70%;
+  height: 92px;
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame label {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+body .main-container #body .container-image .mision-vision .content-mision-vision .contactame .contacteme-content .text-contactame label.git {
+  font-size: 0.8rem;
 }
 body .main-container #body .content-information {
   width: 80%;
