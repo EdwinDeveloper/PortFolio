@@ -1,40 +1,59 @@
 $(document).ready(()=>{
     printName();
     getOption();
+    loadViewDefault();
 });
-const loadView = ()=>{
-    
+const loadViewDefault = ()=>{
+    // let defaultOption = $('.menu-options-container div');
+    // let defaultSelect = defaultOption.index();
+    // defaultSelect.trigger('click');
+}
+const getRemoveClassMenu = (divSelected) =>{
+    divSelected.addClass('extra-menu');
+}
+const limpiarClass = (menus) =>{
+    menus.removeClass('extra-menu');
 }
 const getOption = () =>{
-    $('.menu-options-container div').on('click',(e)=>{
-        let optionSelected = $(e.target).index();
+    let menuOptionContainer = $('.menu-options-container div');
+    menuOptionContainer.on('click',(e)=>{
+        let divSelected = $(e.target);
+        let optionSelected=divSelected.index();
+        let contentInformation=$('.content-information');
+        limpiarClass(menuOptionContainer);
         switch (optionSelected) {
             case 0:
-                $('.content-information').load('./views/cv.html',()=>{
+                getRemoveClassMenu(divSelected);
+                contentInformation.load('./views/cv.html',()=>{
                     console.warn('Cargada');
                 });
                 break;
             case 1:
-                $('.content-information').load('./views/education.html',()=>{
+                getRemoveClassMenu(divSelected);
+                contentInformation.load('./views/education.html',()=>{
                     console.warn('Cargada');
                 });
                 break;
             case 2:
-                $('.content-information').load('./views/experience.html',()=>{
+                getRemoveClassMenu(divSelected);
+                contentInformation.load('./views/experience.html',()=>{
                     console.warn('Cargada');
                 });
                 break;
             case 3:
-                $('.content-information').load('./views/future.html',()=>{
+                getRemoveClassMenu(divSelected);
+                contentInformation.load('./views/future.html',()=>{
                     console.warn('Cargada');
                 });
                 break;
             case 4:
-                $('.content-information').load('./views/others.html',()=>{
+                getRemoveClassMenu(divSelected);
+                contentInformation.load('./views/others.html',()=>{
                     console.warn('Cargada');
                 });
                 break;
             default:
+                divSelected.removeClass('extra');
                 break;
         }
         console.log(optionSelected);

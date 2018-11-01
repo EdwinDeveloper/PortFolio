@@ -52,12 +52,17 @@ body .main-container #menu .menu-options-container div:hover {
   color: black;
   cursor: pointer;
 }
+body .main-container #menu .menu-options-container .extra-menu {
+  background-color: white;
+  color: black;
+}
 body .main-container #body {
   display: flex;
 }
 body .main-container #body .container-image {
   width: 20%;
   height: 650px;
+  /* Create the parallax scrolling effect */
   background-color: #406B7E;
 }
 body .main-container #body .container-image .contenedor-de-imagen {
@@ -341,11 +346,22 @@ body .main-container #body .content-information .main-content .main-container-ri
   font-weight: bold;
   font-size: 1rem;
 }
-body .main-container #footer {
-  width: 80%;
-  height: 100px;
-  background-color: blue;
+body .main-container #content {
+  width: 100%;
+  height: 300px;
+  background-image: url("../img/code.jpg");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: auto;
+  display: flex;
+}
+body .main-container #content .soluciones-ti {
+  margin: auto auto;
+  width: 40%;
+  height: 100px;
+  border: solid 2px red;
 }
 
 /*# sourceMappingURL=main.css.map */
