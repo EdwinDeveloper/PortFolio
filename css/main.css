@@ -38,10 +38,14 @@ body .main-container #menu .menu-options-container div {
   margin: auto auto;
   text-align: center;
   flex-grow: 1;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  height: 40px;
   font-weight: bold;
-  transition: background-color 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: color 0.5s;
+  transition: background-color 0.5s;
 }
 body .main-container #menu .menu-options-container div:hover {
   background-color: white;
@@ -148,7 +152,194 @@ body .main-container #body .container-image .mision-vision .content-mision-visio
 body .main-container #body .content-information {
   width: 80%;
   height: 650px;
-  background-color: orange;
+  background-color: white;
+  display: flex;
+}
+body .main-container #body .content-information .main-content {
+  margin: auto auto;
+  width: 95%;
+  height: 600px;
+  border: solid 1px red;
+  text-align: center;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-left {
+  width: 50%;
+  height: 600px;
+  border: solid 1px blue;
+}
+body .main-container #body .content-information .main-content .main-container-left label {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+body .main-container #body .content-information .main-content .main-container-right {
+  width: 50%;
+  height: 600px;
+  border: solid 1px blue;
+}
+body .main-container #body .content-information .main-content .main-container-right .mensaje-container {
+  width: 90%;
+  height: 50px;
+}
+body .main-container #body .content-information .main-content .main-container-right .mensaje-container label {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath {
+  width: 90%;
+  height: 400px;
+  margin: auto auto;
+  border: solid 1px red;
+  text-align: center;
+  position: relative;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .javascript {
+  margin: auto auto;
+  width: 150px;
+  height: 130px;
+  margin-top: 130px;
+  margin-left: 150px;
+  background-color: #0f0f4e;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .javascript label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .css {
+  width: 100px;
+  height: 100px;
+  margin-top: 80px;
+  margin-left: 90px;
+  border-radius: 50%;
+  background-color: #7272be;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .css label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .html {
+  width: 80px;
+  height: 80px;
+  margin-top: 60px;
+  margin-left: 185px;
+  border-radius: 50%;
+  background-color: #4ba4ce;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .html label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .php {
+  width: 60px;
+  height: 60px;
+  margin-top: 180px;
+  margin-left: 100px;
+  border-radius: 50%;
+  background-color: #dd6b29;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .php label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .git {
+  width: 95px;
+  height: 95px;
+  margin-top: 80px;
+  margin-left: 262px;
+  border-radius: 50%;
+  background-color: #484a4b;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .git label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .bootstrap {
+  width: 80px;
+  height: 80px;
+  margin-top: 172px;
+  margin-left: 292px;
+  border-radius: 50%;
+  background-color: #2f751d;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .bootstrap label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .sql {
+  width: 90px;
+  height: 90px;
+  margin-top: 240px;
+  margin-left: 240px;
+  border-radius: 50%;
+  background-color: #112ab4;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .sql label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .cshare {
+  width: 50px;
+  height: 50px;
+  margin-top: 255px;
+  margin-left: 188px;
+  border-radius: 50%;
+  background-color: #ac4b1f;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .cshare label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .java {
+  width: 50px;
+  height: 50px;
+  margin-top: 236px;
+  margin-left: 136px;
+  border-radius: 50%;
+  background-color: #910303;
+  position: absolute;
+  display: flex;
+}
+body .main-container #body .content-information .main-content .main-container-right .content-grath .java label {
+  margin: auto auto;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
 }
 body .main-container #footer {
   width: 80%;
